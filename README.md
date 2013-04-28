@@ -24,17 +24,17 @@ Make sure to run npm install so that you have all the development dependencies. 
 
 #### Building
 
-Rivets.js uses [grunt](http://gruntjs.com/) as the build tool. Run `grunt build` from within the project root to compile + minify the source into */lib*, or just run `grunt` to have it watch the source file for changes — it will compile + minify into */lib* and run the test suite whenever the source file is saved.
+Rivets.js uses [grunt](http://gruntjs.com/) as the build tool. Run `grunt build` from within the project root to compile + minify the source into */dist*, or just run `grunt` to have it watch the source file for changes. It will compile + minify into */dist* and run the test suite whenever the source file is saved.
 
 #### Testing
 
-Rivets.js uses [Jasmine](http://pivotal.github.com/jasmine/) as the testing framework. You can run the test suite with `grunt spec` or by opening */spec/index.html*.
+Rivets.js uses [Jasmine](http://pivotal.github.com/jasmine/) as the testing framework. You can run the test suite with `grunt spec`.
 
 ## Contributing
 
 #### Bug Reporting
 
-1. Ensure the bug can be reproduced on the latest master release.
+1. Ensure the bug can be reproduced on the latest master.
 2. Open an issue on GitHub and include an isolated JSFiddle demonstration of the bug. The more information you provide, the easier it will be to validate and fix.
 
 #### Pull Requests
